@@ -6,26 +6,16 @@ namespace PizzeriaFactory.Classes
 {
     public class Pizzeria
     {
+        // Le Client
 
-        SimpleFabriqueDePizzas _fabrique;
-        
-        public Pizzeria(SimpleFabriqueDePizzas fabrique)
+        public void CommanderPizza(string type)
         {
-            _fabrique = fabrique;
-        }
-
-        public Pizza commanderPzza(string type)
-        {
-            Pizza pizza;
-            pizza = _fabrique.creerPizza(type);
-
+            IPizza pizza;
+            pizza = SimpleFabriqueDePizzas.GetPizza(type);
             pizza.Preparer();
             pizza.Cuire();
             pizza.couper();
-
-
-            return pizza;
         }
-
+        
     }
 }

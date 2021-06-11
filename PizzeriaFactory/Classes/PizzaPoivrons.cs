@@ -4,18 +4,23 @@ using System.Text;
 
 namespace PizzeriaFactory.Classes
 {
-    public class PizzaPoivrons:Pizza
+    public class PizzaPoivrons:IPizza
     {
 
 
-        public override void Cuire()
+        public  void Cuire()
         {
             Console.WriteLine("Cuison Poivrons");
         }
 
-        public override void couper()
+        public  void couper()
         {
             Console.WriteLine("Coupage Poivrons");
+        }
+
+        public void Preparer()
+        {
+            Console.WriteLine("Prepa Poivrons");
         }
     }
 }

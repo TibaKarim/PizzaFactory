@@ -6,10 +6,17 @@ namespace PizzeriaFactory.Classes
 {
     public class SimpleFabriqueDePizzas
     {
-        //Methode
-        public Pizza creerPizza(string typePizza)
+        /// <summary>
+        /// la fabrique responsable de la creation des objetcs Pizza
+        /// </summary>
+        /// <param name="typePizza"></param>
+        /// <returns></returns>
+
+
+
+        public static IPizza GetPizza(string typePizza)
         {
-            Pizza pizza = null ;
+            IPizza pizza = null ;
             // ToDo
             if(typePizza == "Fromage")
             {
