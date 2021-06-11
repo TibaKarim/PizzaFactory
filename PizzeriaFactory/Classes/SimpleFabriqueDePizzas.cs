@@ -24,7 +24,7 @@ namespace PizzeriaFactory.Classes
             }
             else if(typePizza == "Poivrons")
             {
-                pizza = new PizzaPoivrons();
+                pizza = new PizzaPoivronsBrest();
             }
 
             return pizza;

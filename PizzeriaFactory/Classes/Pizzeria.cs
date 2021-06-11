@@ -4,18 +4,21 @@ using System.Text;
 
 namespace PizzeriaFactory.Classes
 {
-    public class Pizzeria
+    public  abstract class Pizzeria
     {
         // Le Client
 
-        public void CommanderPizza(string type)
+        public IPizza CommanderPizza(string type)
         {
             IPizza pizza;
-            pizza = SimpleFabriqueDePizzas.GetPizza(type);
+            pizza = creerPizza(type);
             pizza.Preparer();
             pizza.Cuire();
             pizza.couper();
+
+            return pizza;
         }
-        
+
+        public abstract IPizza creerPizza(string type);
     }
 }

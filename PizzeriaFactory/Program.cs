@@ -8,10 +8,9 @@ namespace PizzeriaFactory
         {
             Console.WriteLine("Hello World!");
 
-            //SimpleFabriqueDePizzas fabrique = new SimpleFabriqueDePizzas();
-            Pizzeria client = new Pizzeria();
-            string type = "Fromage";
-            client.CommanderPizza(type);
+            Pizzeria BoutiqueBrest = new PizzeriaStyleBrest();
+            IPizza pizza = BoutiqueBrest.CommanderPizza("Fromage");
+
 
            
 
