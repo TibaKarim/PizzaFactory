@@ -1,0 +1,13 @@
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.exe
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.deps.json
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.runtimeconfig.json
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.runtimeconfig.dev.json
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.dll
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\bin\Debug\netcoreapp3.1\PizzeriaFactory.pdb
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.csprojAssemblyReference.cache
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.AssemblyInfoInputs.cache
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.AssemblyInfo.cs
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.csproj.CoreCompileInputs.cache
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.dll
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.pdb
+D:\Dev\DesignPattern\PizzeriaFactory\PizzeriaFactory\obj\Debug\netcoreapp3.1\PizzeriaFactory.genruntimeconfig.cache
